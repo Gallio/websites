@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="CMS_MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="andreas01.css" media="screen" title="andreas01 (screen)" />
+    <link rel="stylesheet" type="text/css" href="/print.css" media="print" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <title>MbUnit</title>
+</head>
+<body>
+<form id="Form1" runat="server">
+    <div id="wrap">
+        <img id="frontphoto" src='<%= Page.ResolveUrl("~/front.jpg") %>' width="760" height="175" alt="MbUnit" />    
+        <h2>
+            CMS</h2>
+        <div id="avmenu">
+            <h2 class="hide">
+                Menu:</h2>
+            <ul>
+                <li><a href='<%= Page.ResolveUrl("~/default.aspx") %>'>Website Home Page</a></li>
+                <li><a href='http://docs.mbunit.com'>Doc's Home Page</a></li>
+                <li><a href='<%= Page.ResolveUrl("~/CMS/default.aspx") %>'>CMS Homepage</a></li>
+                
+                <% if(HttpContext.Current.User.IsInRole("Website Editor")) { %>
+                    <li><a href="AddNews.aspx">Add News</a></li>
+                    <li><a href="EditNews.aspx">Edit News</a></li>
+                    <li><a href="AddArticle.aspx">Add Article</a></li>
+                    <li><a href="EditArticle.aspx">Edit Article</a></li>
+                    <li><a href="AddRelease.aspx">Add Release</a></li>
+                    <li><a href="EditRelease.aspx">Edit Release</a></li>
+                    <li><a href="UploadBuild.aspx">Upload Release</a></li>
+                <%}%>
+                
+                <% if(HttpContext.Current.User.IsInRole("Content Editor")) { %>
+                    <li><a href="ListDocPages.aspx">List Pages</a></li>
+                    <li><a href="NewDocPage.aspx">New Page</a></li>
+                <%}%>
+                
+                <% if(HttpContext.Current.User.IsInRole("Maintainer")) { %>
+                    <li><a href="ManageComments.aspx">Manage Comments</a></li>
+                <%}%>
+                
+                
+                <% if(HttpContext.Current.User.IsInRole("Administrator")) { %>
+                    <li><a href="ManageUsers.aspx">Manage Users</a></li>
+                    <li><a href="ManageRoles.aspx">Manage Roles</a></li>
+                <%}%>
+                
+                <li> 
+                 <asp:LoginView ID="elLog" runat="server">
+                    <AnonymousTemplate>
+                        <a href='<%=Page.ResolveUrl("~/login.aspx")%>'>Login</a>
+                   </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        <asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click1" CausesValidation="false">Logout</asp:LinkButton>
+                    </LoggedInTemplate>
+                </asp:LoginView>
+                </li>
+            </ul>
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder ID="contentPlaceHolder" runat="server">
+                This is the default content placeholder.
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            Copyright &copy; 2005<span lang="en-gb">/6</span> (<span lang="en-gb">Andrew Stopford</span>).
+            Design by <a href="http://andreasviklund.com">Andreas Viklund</a>.
+        </div>
+    </div>
+</form>
+</body>
+</html>

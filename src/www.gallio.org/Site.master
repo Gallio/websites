@@ -1,0 +1,105 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="This is the home of Gallio, an open source automation platform for .NET. " />
+    <meta name="keywords" content="Gallio, C#, .NET, MbUnit, NUnit, XUnit, NBehave, Resharper, Team City, CSUnit, Unit Testing" />
+    <meta name="author" content="Gallio Open Source Team / Original Site Design: Mark Haley adapting asp.net portions from original MbUnit.com site by Ben Hall." />
+    <meta name="verify-v1" content="Dh7FNgw5IAbIaC1E2bb9hhTs4luFSKZilQo8z3cM3gQ=" />
+    <link href="gallio.css" rel="stylesheet" type="text/css" media="screen" title="gallio (screen)"/>
+    <link href="print.css" rel="stylesheet" type="text/css" media="print" />
+    <link rel="alternate" type="application/rss+xml" href="rss/galliorss.xml" title="Gallio Automation Platform"/>
+    <script type="text/javascript" src="menu.js"></script>
+    <title>Gallio - Automation Platform for .NET</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body onload="getMenuState();">
+    <form id="form1" runat="server">
+        <div id="container">
+        <div id="topnav">
+            <ul>
+                <li>◄</li>
+                <li><a href="http://code.google.com/p/mb-unit/">code</a></li>
+                <li><a href="http://ccnet.gallio.org/">builds</a></li>
+                <li><a href="http://code.google.com/p/mb-unit/w/list">wiki</a></li>
+                <li><a href="http://code.google.com/p/mb-unit/issues/list">issues</a></li>
+                <li><a href="http://groups.google.com/group/gallio-dev?lnk=li">gallio-dev</a></li>
+                <li style=" float: right; padding-right: 30px;">
+                        <asp:LoginView ID="elLog" runat="server">
+                            <AnonymousTemplate>
+                                <a href='<%=Page.ResolveUrl("~/LogIn.aspx")%>'>login</a>
+                            </AnonymousTemplate>
+                            <LoggedInTemplate>
+                                <asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click1" CausesValidation="false">logout</asp:LinkButton>
+                            </LoggedInTemplate>
+                        </asp:LoginView>
+                </li>
+            </ul>
+        </div>
+        <div id="sidenav">
+                <ul>
+                    <li id="sidenavTopper">navigation</li>
+                    <li><a href="Default.aspx">homepage</a>
+                    <% if (HttpContext.Current.User.IsInRole("Website Editor"))
+                        { %>
+                    </li>
+                    <li><a href='<%= Page.ResolveUrl("~/CMS/Default.aspx")%>'>cms homepage</a>
+                    <%} %>
+                    </li>
+                    <li>
+                    <a href="#" onclick="toggle('aboutSubMenu', 'about');return false;"
+                    id="about">about</a>
+                        <ul id="aboutSubMenu">
+                            <li><a href="History.aspx" class="childItem">history</a></li>
+                            <li><a href="RoadMap.aspx" class="childItem">road map</a></li>
+                            <li><a href="FAQ.aspx" class="childItem">faq</a></li>
+                            <li><a href="Credits.aspx" class="childItem">credits</a></li>
+                            <li><a href="License.aspx" class="childItem">license</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Screenshots.aspx">screenshots</a></li>
+                    <li><a href="Downloads.aspx">downloads</a></li>
+                    <li>
+                    <a href="#" onclick="toggle('gettingStartedSubMenu', 'gettingStarted');return false;"
+                    id="gettingStarted">getting started</a>
+                        <ul id="gettingStartedSubMenu">
+                            <li><a href="Tutorial.aspx" class="childItem">tutorials</a></li>
+                            <li><a href="Articles.aspx" class="childItem">articles</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Docs.aspx">documentation</a></li>  
+                    <li>
+                    <a href="#" onclick="toggle('communitySubMenu', 'community');return false;"
+                    id="community">community</a>
+                        <ul id="communitySubMenu">
+                            <li><a href="Blogs.aspx" class="childItem">blogs</a></li>
+                            <li><a href="Support.aspx" class="childItem">support</a></li>
+                        </ul>
+                    </li>                          
+                    <li><a href="LinkTo.aspx">link to gallio</a></li>
+                    <li><a href="Development.aspx">develop gallio</a></li>
+                </ul>
+        </div>
+        <div id="leaf" style="top: 90px;"></div>
+        <div id="contentWrap">
+            <div id="rightSidebar">
+                <asp:ContentPlaceHolder ID="RightSideBarContent1" runat="server">
+                    
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="content">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    This is the default content placeholder.
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="footer">copyright &copy; 2008 (<span lang="en-gb">gallio.org</span>).</div>
+    </div>
+    </form>
+</body>
+</html>
+

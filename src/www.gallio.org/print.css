@@ -1,0 +1,21 @@
+﻿body
+{
+	background: white;
+	color: black;
+	font-size: 12pt;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+img
+{
+	border: 0px;
+}
+a
+{
+	text-decoration: none;
+}
+
+#topnav, #sidenav, #rightSidebar
+{
+	display: none;
+}

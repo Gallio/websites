@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<rss version="2.0">
+  <channel>
+    <title>Gallio Automation Platform</title>
+    <link>http://www.gallio.org</link>
+    <description>News and information about the Gallio Automation Platform for .NET</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 May 2008 14:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Gallio Alpha 3 Update 1 Released</title>
+      <link>http://www.gallio.org</link>
+      <description>
+        Today we released a small update to the Alpha 3 Release.  This release makes the MbUnit TestFixture attribute optional and 
+        fixed a couple minor bugs.
+      </description>
+      <pubDate>Fri, 16 May 2008 04:32:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gallio Alpha 3 Released</title>
+      <link>http://www.gallio.org</link>
+      <description>
+        Today we released Gallio Alpha 3 with enhancements and bug fixes. Of particular interest is support for MSTest, experimental Visual 
+        Studio Team System integration, annotations, report improvements and data binding enhancements. --- More details are available 
+        at: http://blog.bits-in-motion.com/2008/05/announcing-gallio-v30-alpha-3.html.
+      </description>
+      <pubDate>Tue, 13 May 2008 09:54:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gallio's Jeff Brown part of discussion on Hanselminutes</title>
+      <link>http://www.hanselminutes.com/default.aspx?showID=130</link>
+      <description>
+        Scott Hanselman recorded a great interview at ALT.Net Seattle with Brad Wilson, Charlie Poole, Roy Osherove and Jeff Brown. Among 
+        other things, we talk about Gallio and the work we are doing to foster innovation and recognize diversity within the .Net testing 
+        community. --- The Past, Present and Future of .NET Unit Testing Frameworks. http://www.hanselminutes.com/default.aspx?showID=130
+      </description>
+      <pubDate>Mon, 12 May 2008 06:38:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gallio Book Chapter 3 now on gallio.org</title>
+      <link>http://www.gallio.org/BookTemporary.aspx</link>
+      <description>
+        Gallio Book:  Chapter 3 "Getting Started" added to www.gallio.org today.  The Gallio project is creating an online book about using 
+        Gallio.  This book is a separate undertaking from the Gallio API Documentation that is also in the works.
+      </description>
+      <pubDate>Sat, 29 Mar 2008 16:10:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gallio.org adds RSS Feed</title>
+      <link>http://www.gallio.org</link>
+      <description>Gallio.org the official website of the Gallio Automation Platform today added an RSS feed to its website www.gallio.org.  
+      The feed will include news items about releases and other items of import relating to Gallio, including updates to the website 
+      and any blogs or articles of note.</description>
+      <pubDate>Wed, 26 Mar 2008 12:45:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jeff Brown blogs about Gallio v3 Alpha 2</title>
+      <link>http://blog.bits-in-motion.com/2008/03/announcing-gallio-v30-alpha-2.html</link>
+      <description>"Today we have released Gallio v3.0 Alpha 2, including a preview of MbUnit v3.  There's been a ton of work behind the scenes to 
+      provide a compelling model for data-driven testing.  Here's an example of this feature in action.  Notice the use of generic method parameters.  
+      Also notice that we perform an automatic string to DateTime conversion and that we take some care in how we format the parameters for 
+      presentation in the test results..."  Read more at Jeff's blog...</description>
+      <pubDate>Mon, 24 Mar 2008 09:57:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gallio Alpha 2 released.</title>
+      <link>http://www.gallio.org</link>
+      <description>Today we released Alpha 2. New features include MbUnit data-binding, the complete realization of the Gallio test model, and 
+      integrated support for ReSharper, PowerShell, NCover, TypeMock, Pex and ASP.NET MVC. Continued improvements to Echo, Icarus, the installer, 
+      and all other tools are also a part of this release.</description>
+      <pubDate>Sun, 23 Mar 2008 12:30:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gallio.org launches on the web</title>
+      <link>http://www.gallio.org</link>
+      <description>The Gallio Project, an open-source Automation Platform for .NET launched it's official website today.  News and information 
+      about the Gallio Automation Platform is available on the website.  The site also features a convenient "out toolbar" that provide quick 
+      access to various Gallio Project development resources, such as the google-code repository and wiki, as well as the gallio-dev google group site.  
+      Over the next few months a full API reference will be added, as well as turorials and articles.</description>
+      <pubDate>Sat, 22 Mar 2008 18:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

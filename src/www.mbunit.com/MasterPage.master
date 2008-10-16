@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="This is the home of MbUnit, a generative unit test framework for the .NET Framework. " />
+    <meta name="keywords" content="C#, MbUnit, Unit Testing" />
+    <meta name="author" content="MbUnit / Original design: Andreas Viklund - http://andreasviklund.com/" />
+    <link rel="stylesheet" type="text/css" href="andreas01.css" media="screen" title="andreas01 (screen)" />
+    <link rel="stylesheet" type="text/css" href="print.css" media="print" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <title>MbUnit - Generative Unit Test Framework for the .NET Framework.</title>
+</head>
+<body>
+    <form id="Form1" runat="server">
+        <div id="wrap">
+            <a href="Default.aspx">
+            <img id="frontphoto" src="front.jpg" width="758" alt="MbUnit" style="height: 163px" /></a>
+            <div id="avmenu">
+                <h2 class="hide">
+                    Menu:</h2>
+                <ul>
+                    <li><a href="Default.aspx">Homepage</a>
+                    <% if (HttpContext.Current.User.IsInRole("Website Editor"))
+                        { %>
+                    </li>
+                    <li><a href='<%= Page.ResolveUrl("~/CMS/Default.aspx")%>'>CMS Home</a>
+                    <%} %>
+                    </li>
+                    <li><a href="About.aspx">About</a></li>
+                    <li><a href="Downloads.aspx">Downloads</a></li>
+                    <li><a href="http://docs.mbunit.com">Documentation</a></li>
+                    <li><a href="Blogs.aspx">Blogs</a></li>
+                    <li><a href="Articles.aspx">Articles</a></li>
+                    <li><a href="Development.aspx">Development</a></li>
+                    <li><a href="Support.aspx">Support</a></li>
+                    <li><a href="Logos.aspx">Logo</a></li>
+                    <li><a href="License.aspx">License</a></li>
+                    <li><a href="CommitMembers.aspx">Commit Members</a></li>
+                    <li>
+                        <asp:LoginView ID="elLog" runat="server">
+                            <AnonymousTemplate>
+                                <a href='<%=Page.ResolveUrl("~/login.aspx")%>'>Login</a>
+                            </AnonymousTemplate>
+                            <LoggedInTemplate>
+                                <asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click1" CausesValidation="false">Logout</asp:LinkButton>
+                            </LoggedInTemplate>
+                        </asp:LoginView>
+                    </li>
+                </ul>
+            </div>
+            <div id="content">
+                <asp:ContentPlaceHolder ID="contentPlaceHolder" runat="server">
+                    This is the default content placeholder.
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="footer">
+                Copyright &copy; 2005<span lang="en-gb">/6</span> (<span lang="en-gb">Andrew Stopford</span>).
+                Design by <a href="http://andreasviklund.com">Andreas Viklund</a>.
+            </div>
+        </div>
+    </form>
+</body>
+</html>

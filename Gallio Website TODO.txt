@@ -1,0 +1,16 @@
+﻿Gallio.org Website TODO List - edited March 23, 2008: by Mark Haley
+
+Programming:
+	
+	Leaf page position indicator programming (revised idea: leaf is just decoration in a fixed place)
+	Better css coloration styles for content section
+	Streamline gallio.css
+	* Work at reducing total graphic download size
+	
+Content:
+
+	Tutorials
+	
+Artwork:
+
+	Second set of LinkToGallio banners

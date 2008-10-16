@@ -1,0 +1,19 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <Import Project="$(MetaBuildBinDir)\MetaBuild.Module.targets" />
+
+  <ItemGroup>
+    <ASPNetWebSite Include="www.gallio.org">
+      <ImagePath>www.gallio.org</ImagePath>
+      <VirtualPath>/</VirtualPath>
+      <Debug>false</Debug>
+      <Updateable>true</Updateable>
+    </ASPNetWebSite>
+    
+    <ASPNetWebSite Include="www.mbunit.com">
+      <ImagePath>www.mbunit.com</ImagePath>
+      <VirtualPath>/</VirtualPath>
+      <Debug>false</Debug>
+      <Updateable>true</Updateable>
+    </ASPNetWebSite>
+  </ItemGroup>
+</Project>

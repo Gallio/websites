@@ -1,0 +1,277 @@
+﻿/*** Global Settings ***/
+
+html, body
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #996600;
+}
+
+img
+{
+	border-width: 0;
+	margin: 0;
+}
+
+body
+{
+	background: #EBEAD1 url( 'images/gradient.png' ) repeat-x center top;
+	color: #333E46;
+	font: 76% Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+/*** Main container ***/
+
+#container
+{
+	background: #EBEAD1 color:##333E46;
+	min-width: 950px;
+	font-size: 1.0em;
+	text-align: left;
+	width: 100%;
+}
+
+/*** Top Nav ***/
+
+#topnav
+{
+	height: 150px;
+	width: 100%;
+	/* this is temporary needs to be put into a div so we can hyperlink it to default.asp */
+	background: url(  'images/front4a.png' ) no-repeat center top;
+}
+#topnav ul
+{
+	margin: 0px 18px 0px 34px;
+	padding: 0px; /*Firefox and Opera needed this to snug the first link to the left edge.*/
+}
+#topnav li
+{
+	display: block;		
+	float: left;
+	list-style: none;	
+	padding-right: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#topnav li a
+{
+	color: #333E46;
+	font-weight: bold;
+}
+
+#topnav li a:hover
+{
+	color: #ffffff;
+}
+
+/*** SideNav ***/
+
+#sidenav
+{
+	position: absolute;
+	left: 34px;
+	top: 74px;
+	border: 1px solid #808080;
+	width: 200px;
+}
+
+#sidenav ul
+{
+	border: 4px solid #ffffff;
+	background: #E2E0BC;
+	list-style: none;
+	width: 192px;
+	margin: 0;
+	padding: 0;
+}
+
+#sidenavTopper
+{
+
+	padding: 6px 0px 0px 0px;
+	color: #FFFFFF;
+	height: 22px;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color: #FFFFFF;
+	background-color: #333E46;
+	text-align: center;
+	font-weight: bold;
+}
+
+#sidenav li
+{
+	position: relative;
+}
+
+#sidenav li a
+{
+	color: #333E46;
+	font-weight: bold;
+	height: 23px;
+	display: block;
+	padding: 5px 0px 0px 18px;
+}
+	
+#sidenav li a:hover
+{
+	color: #ffffff;
+	background-color: #C6C27B;
+}
+
+#sidenav li > ul
+{
+	margin: 0px;
+	border-width: 0px;
+	display: block;
+}
+
+#sidenav li > ul > li
+{
+	padding-left: 24px;
+}
+
+#about,#gettingStarted, #community
+{
+	background-position: 0px 11px;
+	background-image: url(  'images/exco2.png' );
+	background-repeat: no-repeat;
+}
+
+.childItem
+{
+	background-position: 0px center;
+	background-image: url(  'images/lines.png' );
+	background-repeat: no-repeat;
+}
+
+#leaf
+{
+	background: url( 'images/selectorLeaf.png' );
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	left: 18px;
+	background-repeat: no-repeat;
+}
+
+/*** ContentWrap ***/
+
+#contentWrap
+{
+	margin: 0px 0px 0px 270px;
+}
+
+/*** RightSidebar ***/
+/* Note:  not very many pages will use this, 
+so there is NO "visible" styling in this tag */
+#rightSidebar
+{
+	float: right;
+	margin-right: 34px;
+	width: 256px;
+}
+#rightSideBarHeader
+{
+	border-style: solid solid none solid;
+	border-width: 4px;
+	border-color: #FFFFFF;
+	background-color: #E2E0BC;
+	padding: 3px 14px 3px 14px;
+	font-size: 1.0em;
+	color: #333E46;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.newsBar
+{
+	background-color: #F1F0E0;
+	padding: 14px;
+	border: 4px solid #FFFFFF;
+	font-size: .9em;
+}
+.newsBar small
+{
+	color: #999999;
+	font-size: .7em;
+}
+
+
+/*** Content ***/
+
+#content
+{
+	margin-right: 320px;
+	line-height: 1.4em;
+}
+#content h1
+{
+	font-size:1.3em;
+	font-weight: bold;
+}
+#content h2
+{
+	font-size:1.2em;
+	font-weight: bold;
+}
+#content h3
+{
+	font-size:1.1em;
+	font-weight: bold;
+}
+content h4
+{
+	font-size:1.0em;
+	font-weight: bold;
+}
+#content p
+{
+	font-size: 1.1em;
+}
+#content .sF
+{
+	font-style: italic;
+	color: #009933;
+}
+
+#content a
+{
+	font-weight: normal;
+}
+.question
+{
+	color: #333E46;
+}
+.answer
+{
+	color: #009900;
+	margin-bottom: 14px;
+}
+
+/*** Footer ***/
+
+#footer
+{
+	border-color: #FFFFFF;
+	clear: both;
+	font-size: 0.8em;
+	font-weight: bold;
+	padding: 20px 0;
+	text-align: center;
+	width: 100%;
+	border-top-style: solid;
+	border-top-width: 4px;
+	margin-top: 34px;
+}

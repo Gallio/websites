@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CMS.master.cs" Inherits="CMS_CMS" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="This is the home of Gallio, an open source framework runner for .NET. " />
+    <meta name="keywords" content="Gallio, C#, .NET, MbUnit, NUnit, XUnit, NBehave, Resharper, Team City, CSUnit, Unit Testing" />
+    <meta name="author" content="Gallio Open Source Team / Original Site Design: Mark Haley adapting asp.net portions from original MbUnit.com site by Ben Hall." />
+    <link href="../gallio.css" rel="stylesheet" type="text/css" media="screen" title="gallio (screen)"/>
+    <link href="../print.css" rel="stylesheet" type="text/css" media="print" /> 
+    <title>Gallio - Pattern Test Framework for .NET</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="container">
+        <div id="topnav">
+            <ul>
+                <li>◄</li>
+                <li><a href="http://code.google.com/p/mb-unit/">code</a></li>
+                <li><a href="http://code.google.com/p/mb-unit/w/list">wiki</a></li>
+                <li><a href="http://code.google.com/p/mb-unit/issues/list">issues</a></li>
+                <li><a href="http://groups.google.com/group/gallio-dev?lnk=li">gallio-dev</a></li>
+                <li style=" float: right; padding-right: 30px;">
+                        <asp:LoginView ID="elLog" runat="server">
+                            <AnonymousTemplate>
+                                <a href='<%=Page.ResolveUrl("~/LogIn.aspx")%>'>login</a>
+                            </AnonymousTemplate>
+                            <LoggedInTemplate>
+                                <asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click1" CausesValidation="false">logout</asp:LinkButton>
+                            </LoggedInTemplate>
+                        </asp:LoginView>
+                </li>
+            </ul>
+        </div>
+        <div id="sidenav">
+                <ul>
+                    <li id="sidenavTopper">navigation</li>
+                    <li><a href='<%= Page.ResolveUrl("~/default.aspx") %>'>website homepage</a></li>
+                    <li><a href='http://docs.gallio.org'>doc's homepage</a></li>
+                    <li><a href='<%= Page.ResolveUrl("~/CMS/default.aspx") %>'>cms homepage</a></li>
+                    
+                    <% if(HttpContext.Current.User.IsInRole("Website Editor")) { %>
+                        <li><a href="AddNews.aspx">add news</a></li>
+                        <li><a href="EditNews.aspx">edit news</a></li>
+                        <li><a href="AddArticle.aspx">add article</a></li>
+                        <li><a href="EditArticle.aspx">edit article</a></li>
+                        <li><a href="AddRelease.aspx">add release</a></li>
+                        <li><a href="EditRelease.aspx">edit release</a></li>
+                        <li><a href="UploadBuild.aspx">upload release</a></li>
+                    <%}%>
+                    
+                    <% if(HttpContext.Current.User.IsInRole("Content Editor")) { %>
+                        <li><a href="ListDocPages.aspx">list doc pages</a></li>
+                        <li><a href="NewDocPage.aspx">new doc page</a></li>
+                    <%}%>
+                    
+                    <% if(HttpContext.Current.User.IsInRole("Maintainer")) { %>
+                        <li><a href="ManageComments.aspx">manage comments</a></li>
+                    <%}%>
+                    
+                    
+                    <% if(HttpContext.Current.User.IsInRole("Administrator")) { %>
+                        <li><a href="ManageUsers.aspx">manage users</a></li>
+                        <li><a href="ManageRoles.aspx">manage roles</a></li>
+                    <%}%>
+                </ul>
+        </div>
+        <div id="contentWrap">
+            <div id="content">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    This is the default content placeholder.
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="footer">copyright &copy; 2008 (<span lang="en-gb">gallio.org</span>).</div>
+    </div>
+    </form>
+</body>
+</html>
