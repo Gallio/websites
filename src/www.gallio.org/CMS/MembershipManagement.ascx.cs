@@ -53,7 +53,7 @@ public partial class CMS_MembershipManagement : UserControl
     private DataSet ExecuteQuery(string query, SqlParameter[] sqlParameters)
     {
         DataSet ds = new DataSet();
-        using (SqlConnection sqlConn = new SqlConnection(ConfigurationManager.ConnectionStrings["localSqlServer"].ConnectionString))
+        using (SqlConnection sqlConn = new SqlConnection(ConfigurationManager.ConnectionStrings["GallioDb"].ConnectionString))
         {
             SqlDataAdapter adapter = new SqlDataAdapter();
             SqlCommand sqlCmd = new SqlCommand(query, sqlConn);
@@ -88,7 +88,7 @@ public partial class CMS_MembershipManagement : UserControl
     private int ExecuteUpdate(string query, string user)
     {
         int rows;
-        using (SqlConnection sqlConn = new SqlConnection(ConfigurationManager.ConnectionStrings["localSqlServer"].ConnectionString))
+        using (SqlConnection sqlConn = new SqlConnection(ConfigurationManager.ConnectionStrings["GallioDb"].ConnectionString))
         {
             SqlCommand sqlCmd = new SqlCommand();
             sqlCmd.Connection = sqlConn;
