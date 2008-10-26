@@ -7,12 +7,13 @@
     </p><p>
     There are two current versions of MbUnit, v2 and v3.
     </p><p>
-    MbUnit v3 is the current version of the MbUnit Framework.  It is based on the <a href="http://www.gallio.org/">Gallio Test Automation Platform</a> which provides a stunning array of interoperable test tools.  MbUnit v3 has been rewritten from the ground up to provide a compelling suite of testing features, native support for .Net 2.0 and .Net 3.5, better documentation, and cross-platform compatibility with Mono.
+    <b>MbUnit v3</b> is the current version of the MbUnit Framework.  It is based on the <a href="http://www.gallio.org/">Gallio Test Automation Platform</a> which provides a stunning array of interoperable test tools.  MbUnit v3 has been rewritten from the ground up to provide a compelling suite of testing features, native support for .Net 2.0 and .Net 3.5, better documentation, and cross-platform compatibility with Mono.
     </p><p>
-    MbUnit v2 is the older version of the MbUnit Framework.  It is still actively maintained for the benefit of existing users.  It is possible to use both MbUnit v2 and v3 at the same time with the Gallio test runners.  However, we recommend using mbunit v3 for all new test projects.
+    <b>MbUnit v2</b> is the older version of the MbUnit Framework.  It is still actively maintained for the benefit of existing users.
+    </p><p>It is possible to use both MbUnit v2 and v3 at the same time with the Gallio test runners.  However, we recommend using MbUnit v3 for all new test projects.
     </p>
     <p>
-    For the latest information about Gallio and MbUnit v3, please visit the <a href="http://www.gallio.org/">Gallio</a> website.
+    <b>Please visit the <a href="http://www.gallio.org/">Gallio</a> website for the latest information about Gallio and MbUnit v3.</b>
     </p>
     <h3>
         Latest News</h3>

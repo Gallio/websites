@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="contentPlaceHolder" Runat="Server">
     <h3 style="text-align: left">
         Login</h3>
-    For authenciated users only.<br />
+    For authenticated users only.<br />
     <br />
        <asp:Login ID="Login1" runat="server" DestinationPageUrl="~/CMS/Default.aspx" />
 </asp:Content>
