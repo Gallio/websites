@@ -82,6 +82,8 @@
                     </li>                          
                     <li><a href="LinkTo.aspx">link to gallio</a></li>
                     <li><a href="Development.aspx">develop gallio</a></li>
+                    <li id="new"><a href="Store.aspx">gallio store&nbsp;&nbsp;&nbsp;&nbsp;
+                        **&nbsp;&nbsp;&nbsp;  new!</a></li>
                 </ul>
         </div>
         <div id="leaf" style="top: 90px;"></div>

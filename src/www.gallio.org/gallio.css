@@ -167,6 +167,11 @@ body
 	background-repeat: no-repeat;
 }
 
+#new
+{
+	background-color: #ADF997;
+}
+
 /*** ContentWrap ***/
 
 #contentWrap
