@@ -16,6 +16,15 @@
     <script type="text/javascript" src="menu.js"></script>
     <title>Gallio - Automation Platform for .NET</title>
     <link rel="shortcut icon" href="/favicon.ico" />
+    
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-4870597-2");
+        pageTracker._trackPageview();
+    </script>
 </head>
 <body onload="getMenuState();">
     <form id="form1" runat="server">
