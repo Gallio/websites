@@ -9,7 +9,7 @@
     <p>
         Documentation for the project, including how to get started developing for the 
         framework, submitting bugs, and other important information can be found at:<br />
-        <a href="http://docs.gallio.org">http://docs.gallio.org</a></p>
+        <a href="http://www.gallio.org/Docs.aspx">http://www.gallio.org/Docs.aspx</a></p>
     <p>
         We are currently hosting our code at GoogleCode and SVN.&nbsp; This can be access by 
         going to:<br />
