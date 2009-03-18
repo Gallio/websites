@@ -29,5 +29,25 @@
     <li><a href="api/html/index.html">Gallio API Documentation online</a></li>
     <li><a href="api/Gallio.chm">Gallio API Documentation in CHM format</a> (downloadable)</li>
     </ul>
+    <h3>Topics of Particular Interest</h3>
+    <p>
+      Here are a couple of useful shortcuts:
+    </p>
+    <ul>
+    <li><a href="api/html/N_MbUnit_Framework.html">MbUnit v3 Framework</a>: <a href="api/html/T_MbUnit_Framework_Assert.html">Assert</a>, <a href="api/html/T_MbUnit_Framework_AssertEx.html">AssertEx</a>, <a href="api/html/N_MbUnit_Framework_ContractVerifiers.html">Contract Verifiers</a>, <a href="api/html/T_Gallio_Framework_TestLog.html">TestLog</a>, <a href="api/html/T_Gallio_Framework_TestStep.html">TestStep</a>, <a href="api/html/T_Gallio_Framework_TestContext.html">TestContext</a>, <a href="api/html/T_Gallio_Framework_Tasks.html">Task Manager</a></li>
+    <li><a href="api/html/N_Gallio_NAntTasks.html">Gallio NAnt Tasks</a></li>
+    <li><a href="api/html/N_Gallio_MSBuildTasks.html">Gallio MSBuild Tasks</a></li>
+    <li><a href="api/html/T_Gallio_Ambience_Ambient.html">Gallio Ambience Test Data Repository</a></li>
+    </ul>
+    <p>
+      Tips:
+    </p>
+    <ul>
+    <li>For documentation about the command-line test runner, type "Gallio.Echo.exe /?" at the command-line</a></li>
+    <li>For documentation about the PowerShell cmdlet, type "help Run-Gallio" in PowerShell</a></li>
+    <li>For additional API documentation about types and operations provided by Gallio, MbUnit and other components, hit F1 in Visual Studio.</li>
+    <li>For information on how to integrate Gallio with CruiseControl.Net, look in the "extras/ccnet" folder within the Gallio installation directory.</li>
+    <li>To enable TeamCity integration, you must specify "Gallio.TeamCityIntegration.TeamCityExtension, Gallio.TeamCityIntegration" as a test runner extension argument to the Echo, NAnt, MSBuild, or PowerShell test runners.</li>
+    </ul>
 </asp:Content>
 
