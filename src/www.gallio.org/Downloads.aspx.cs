@@ -19,6 +19,7 @@ public partial class Downloads : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+/*
         string downloadFrom = ConfigurationManager.AppSettings["downloadFrom"];
 
         List<DownloadItem> downloads = null;
@@ -41,7 +42,7 @@ public partial class Downloads : System.Web.UI.Page
         {
             displayError("No releases found.");
         }
-
+*/
     }
 
     private List<DownloadItem> ProcessDownloads(string downloadFrom)
