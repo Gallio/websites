@@ -63,6 +63,7 @@
             <asp:Parameter Name="ReleaseDate" Type="DateTime" />
         </InsertParameters>
     </asp:SqlDataSource>
+    <!--
     <h3>
         Release Builds</h3>
     <p>
@@ -84,6 +85,7 @@
         <HeaderStyle BackColor="#333E46" Font-Bold="True" ForeColor="White" />
         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
     </asp:GridView>
+    -->
     <h3>Development Builds</h3>
     <p>If you wish to download the latest development builds, they are available 
     <a href="http://ccnet.gallio.org/Distributables">here</a>.</p>
