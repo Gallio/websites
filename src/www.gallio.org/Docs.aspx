@@ -29,19 +29,23 @@
     <li><a href="api/html/index.html">Gallio API Documentation online</a></li>
     <li><a href="api/Gallio.chm">Gallio API Documentation in CHM format</a> (downloadable)</li>
     </ul>
-    <h3>Topics of Particular Interest</h3>
+    <h3>Release Notes</h3>
     <p>
-      Shortcuts:
+      The release notes contain tons of information about particular releases including
+      announcements and examples of new and noteworthy features in Gallio and MbUnit,
+      some of which may not yet be documented in the Book.  Worth reading.
     </p>
+    <ul>
+      <li><a href="http://blog.bits-in-motion.com/search/label/release%20notes">Gallio Release Notes</a></li>
+    </ul>
+    <h3>Links</h3>
     <ul>
     <li><a href="api/html/N_MbUnit_Framework.html">MbUnit v3 Framework</a>: <a href="api/html/T_MbUnit_Framework_Assert.html">Assert</a>, <a href="api/html/T_MbUnit_Framework_AssertEx.html">AssertEx</a>, <a href="api/html/N_MbUnit_Framework_ContractVerifiers.html">Contract Verifiers</a>, <a href="api/html/T_Gallio_Framework_TestLog.html">TestLog</a>, <a href="api/html/T_Gallio_Framework_TestStep.html">TestStep</a>, <a href="api/html/T_Gallio_Framework_TestContext.html">TestContext</a>, <a href="api/html/T_Gallio_Framework_Tasks.html">Task Manager</a></li>
     <li><a href="api/html/N_Gallio_NAntTasks.html">Gallio NAnt Tasks</a></li>
     <li><a href="api/html/N_Gallio_MSBuildTasks.html">Gallio MSBuild Tasks</a></li>
     <li><a href="api/html/T_Gallio_Ambience_Ambient.html">Gallio Ambience Test Data Repository</a></li>
     </ul>
-    <p>
-      Tips:
-    </p>
+    <h3>Tips</h3>
     <ul>
     <li>For documentation about the command-line test runner, type "Gallio.Echo.exe /?" at the command-line.</li>
     <li>For documentation about the PowerShell cmdlet, type "help Run-Gallio" in PowerShell.</li>
