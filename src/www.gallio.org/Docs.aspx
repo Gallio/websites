@@ -26,7 +26,7 @@
       F1 help.
     </p>
     <ul>
-    <li><a href="api/html/index.html">Gallio API Documentation online</a></li>
+    <li><a href="api/index.aspx">Gallio API Documentation online</a></li>
     <li><a href="api/Gallio.chm">Gallio API Documentation in CHM format</a> (downloadable)</li>
     </ul>
     <h3>Release Notes</h3>
