@@ -22,7 +22,7 @@
     <h3>API Documentation</h3>
     <p>
       The API documentation describes all types and members of the Gallio and MbUnit API.
-      The same information is also availble in Visual Studio via Intellisense and integrated
+      The same information is also available in Visual Studio via Intellisense and integrated
       F1 help.
     </p>
     <ul>
@@ -40,10 +40,10 @@
     </ul>
     <h3>Links</h3>
     <ul>
-    <li><a href="api/html/N_MbUnit_Framework.html">MbUnit v3 Framework</a>: <a href="api/html/T_MbUnit_Framework_Assert.html">Assert</a>, <a href="api/html/T_MbUnit_Framework_AssertEx.html">AssertEx</a>, <a href="api/html/N_MbUnit_Framework_ContractVerifiers.html">Contract Verifiers</a>, <a href="api/html/T_Gallio_Framework_TestLog.html">TestLog</a>, <a href="api/html/T_Gallio_Framework_TestStep.html">TestStep</a>, <a href="api/html/T_Gallio_Framework_TestContext.html">TestContext</a>, <a href="api/html/T_Gallio_Framework_Tasks.html">Task Manager</a></li>
-    <li><a href="api/html/N_Gallio_NAntTasks.html">Gallio NAnt Tasks</a></li>
-    <li><a href="api/html/N_Gallio_MSBuildTasks.html">Gallio MSBuild Tasks</a></li>
-    <li><a href="api/html/T_Gallio_Ambience_Ambient.html">Gallio Ambience Test Data Repository</a></li>
+    <li><a href="api/html/N_MbUnit_Framework.htm">MbUnit v3 Framework</a>: <a href="api/html/T_MbUnit_Framework_Assert.htm">Assert</a>, <a href="api/html/T_MbUnit_Framework_AssertEx.htm">AssertEx</a>, <a href="api/html/N_MbUnit_Framework_ContractVerifiers.htm">Contract Verifiers</a>, <a href="api/html/T_Gallio_Framework_TestLog.htm">TestLog</a>, <a href="api/html/T_Gallio_Framework_TestStep.htm">TestStep</a>, <a href="api/html/T_Gallio_Framework_TestContext.htm">TestContext</a>, <a href="api/html/T_Gallio_Framework_Tasks.htm">Task Manager</a></li>
+    <li><a href="api/html/N_Gallio_NAntTasks.htm">Gallio NAnt Tasks</a></li>
+    <li><a href="api/html/N_Gallio_MSBuildTasks.htm">Gallio MSBuild Tasks</a></li>
+    <li><a href="api/html/T_Gallio_Ambience_Ambient.htm">Gallio Ambience Test Data Repository</a></li>
     </ul>
     <h3>Tips</h3>
     <ul>
