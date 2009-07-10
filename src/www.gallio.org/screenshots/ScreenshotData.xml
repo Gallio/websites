@@ -2,19 +2,19 @@
 <ScreenshotData>
 	<Group Name="Icarus">
 		<Screenshot>
-			<FileName>ssIcarus</FileName>
+			<FileName>ssIcarus.png</FileName>
 			<AltText>Gallio's Icarus GUI Runner</AltText>
 			<Description>Gallio's Icarus GUI Runner displays the results of running a sample MbUnit test assembly.</Description>
 		</Screenshot>
 
 		<Screenshot>
-			<FileName>ssIcarus2</FileName>
+			<FileName>ssIcarus2.png</FileName>
 			<AltText>Gallio's Icarus GUI Runner</AltText>
 			<Description>Gallio's Icarus Runner displaying the Gallio Test Report results.</Description>
 		</Screenshot>		
 	
 		<Screenshot>
-			<FileName>ssInstallOptions</FileName>
+			<FileName>ssInstallOptions.png</FileName>
 			<AltText>Gallio's Icarus GUI Runner</AltText>
 			<Description>Gallio supports many frameworks, tools and runners as seen by the components available in the installer.</Description>
 		</Screenshot>
@@ -22,22 +22,22 @@
 
 	<Group Name="Echo">
 		<Screenshot>
-			<FileName>EchoCommandLine</FileName>
+			<FileName>EchoCommandLine.png</FileName>
 			<AltText>Running tests from command line using Echo.</AltText>
 			<Description>Gallio.Echo.exe is a command line test runner. It has a progress monitor which gives you feedback about the status of a test run. Additionally, it allows you to specify the destination and format (say xml, mht, etc.) of your results. Use plugins to generate customized reports and charts.</Description>
 		</Screenshot>
 	</Group>
 
-	<Group Name="VisualStudio Integration">
+	<Group Name="ReSharper Integration">
 		<Screenshot>
-			<FileName>VisualStudioIntegration</FileName>
-			<AltText>Running tests in visual studio.</AltText>
-			<Description>Gallio's test runner is integrated in to visual studio. When you open any test inside visual studio it presents you a green and yellow circle adjacent to test. Left-Click to open up a pane which presents you a list of actions. Apart from running/debugging a test, it allows you to create sessions of tests from different fixtures. These sessions can be stored and you can run them.</Description>
+			<FileName>ReSharperIntegration.png</FileName>
+			<AltText>Running tests in Visual Studio with ReSharper.</AltText>
+			<Description>Gallio's test runner is integrated with ReSharper's Unit Test Runner. When you open any test inside Visual Studio it presents you a green and yellow circle adjacent to test. Left-Click to open up a pane which presents you a list of actions. Apart from running/debugging a test, it allows you to create sessions of tests from different fixtures. These sessions can be stored and you can run them.</Description>
 		</Screenshot>
 		<Screenshot>
-			<FileName>VisualStudioIntegrationGallioReport</FileName>
-			<AltText>Gallio report inside visual studio.</AltText>
-			<Description>When you run a test inside visual studio, the results are displayed in a new window pane. This window has a button to display condensed/full test report. When selected it displays the test results in a new tab right inside visual studio. Note that the exceptions box has clickable links which navigate directly to the displayed location right inside visual studio!!!</Description>
+			<FileName>ReSharperIntegrationGallioReport.png</FileName>
+			<AltText>Viewing test report in Visual Studio with ReSharper.</AltText>
+			<Description>Gallio's test runner extends ReSharper's Unit Test Runner to provide an option to display a Gallio test report.  The report contains links on test and in stack traces which navigate directly to the displayed location right inside Visual Studio.</Description>
 		</Screenshot>
 	</Group>
 </ScreenshotData>
