@@ -15,7 +15,8 @@
         <a href="http://vadim-net.blogspot.com/">Vadim Kreynin</a><br />
         <a href="http://www.marcstober.com/blog/category/Software%20Blog">Marc Stober</a><br />
         <a href="http://weblogs.asp.net/astopford/">Andy Stopford</a><br />
-	<a href="http://der-albert.com">Albert Weinert</a><br />
+        <a href="http://der-albert.com">Albert Weinert</a><br />
+        <a href="http://interfacingreality.blogspot.com/">Yann Trevin</a><br />
         <br />
         The documentation lead is
         <a href="http://blogs.ipona.com/dan/">Dan Maharry</a>
