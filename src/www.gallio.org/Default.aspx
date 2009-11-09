@@ -21,9 +21,11 @@
             <a href="http://msdn.microsoft.com/en-us/library/ms182486.aspx" class="sF">MSTest</a>,  
             <a href="http://nbehave.org/" class="sF">NBehave</a>, 
             <a href="http://www.nunit.org/index.php" class="sF">NUnit</a>, 
-            <a href="http://www.codeplex.com/xunit" class="sF">xUnit.Net</a>, and 
-            <a href="http://www.csunit.org/" class="sF">csUnit</a>. &nbsp;Gallio 
-            provides tool support and integration with 
+            <a href="http://www.codeplex.com/xunit" class="sF">xUnit.Net</a>,
+            <a href="http://www.csunit.org/" class="sF">csUnit</a>, and
+            <a href="http://rspec.info/" class="sF">RSpec</a>.
+            &nbsp;Gallio provides tool support and integration with 
+            <a href="http://www.autodesk.com/" class="sF">AutoCAD</a>,
             <a href="http://confluence.public.thoughtworks.org/display/CCNET/Welcome+to+CruiseControl.NET" class="sF">
             CCNet</a>, 
             <a href="http://msdn2.microsoft.com/en-us/library/0k6kkbsd.aspx" class="sF">
@@ -35,13 +37,18 @@
             Powershell</a>,
             <a href="http://www.jetbrains.com/resharper/index.html" class="sF">Resharper</a>, 
             <a href="http://www.testdriven.net/" class="sF">TestDriven.Net</a>, 
-            <a href="http://www.typemock.com/" class="sF">TypeMock</a>, and 
-            <a href="http://msdn.microsoft.com/en-us/vsts2008/products/default.aspx" class="sF">Visual Studio Team System</a>.</p>
+            <a href="http://www.typemock.com/" class="sF">TypeMock</a>, and
+            <a href="http://msdn.microsoft.com/en-us/vsts2008/products/default.aspx" class="sF">Visual Studio Team System</a>.
+        </p>
     <p>
         Gallio also includes its own command-line runner, Echo, and a Windows GUI, 
         Icarus. Additional runners are planned or under development. Third parties are 
         also encouraged to leverage the Gallio platform as part of their own 
         applications.</p>
+    <p>
+        Gallio has a rich plug-in model that enables integration with additional frameworks and tools
+        of your own design.  Tests can be implemented in almost any language or format provided
+        that a suitable extension has been installed.</p>
     <p> <a href="Downloads.aspx">
         <img src="images/downloadnow.png" alt="Download the latest version of gallio." style="float:left; margin-right:14px;"/></a>
         To download the latest version of Gallio, click on the link below or visit the 
