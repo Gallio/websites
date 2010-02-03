@@ -8,6 +8,9 @@
     <StartDir>$(RootDir)</StartDir>
     <MetaBuildBinDir>$(RootDir)\tools\MetaBuild\bin</MetaBuildBinDir>
     <MetaBuildConfigFile>$(RootDir)\bin\MetaBuild.config.custom</MetaBuildConfigFile>
+	
+    <BuildNumber>$(CCNetLabel)</BuildNumber>
+    <BuildNumber Condition="'$(BuildNumber)'==''">0</BuildNumber>
   </PropertyGroup>
 
   <Target Name="Release">
@@ -17,6 +20,7 @@
 	       Version=$(Version);
 	       RootDir=$(RootDir);
 	       StartDir=$(StartDir);
+		   BuildNumber=$(BuildNumber);
 	       MetaBuildBinDir=$(MetaBuildBinDir);
 	       MetaBuildConfigFile=$(MetaBuildConfigFile)"
 	     Targets="Clean;Build;Image;Test;Dist" />
