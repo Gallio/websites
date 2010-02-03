@@ -4,4 +4,12 @@
   <ItemGroup>
     <Module Include="src\All.module" />
   </ItemGroup>
+  
+  <Target Name="BeforeDist">
+    <ItemGroup>
+      <File Include="$(ImageDir)\**\*">
+        <DistPath>WebSites\$(DistLabel)</DistPath>
+      </File>
+    </ItemGroup>
+  </Target>
 </Project>
