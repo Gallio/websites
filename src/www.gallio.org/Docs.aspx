@@ -16,9 +16,18 @@
     </ul>
     <p>
       <em>The book is currently a work in progress.  If you would like to volunteer as
-      a writer or editor please send a message to the <a href="http://groups.google.com/group/gallio-dev">gallio-dev</a> mailing list.
+      a writer or editor please send a message to the <a href="http://groups.google.com/group/gallio-book">gallio-book</a> mailing list.
       </em>
     </p>
+	
+	<h3>Wiki</h3>
+	<p>
+	  The Gallio Wiki contains additional documentation and resources provided by the community.
+	</p>
+    <ul>
+    <li><a href="wiki">Gallio Wiki</a></li>
+    </ul>	
+	
     <h3>API Documentation</h3>
     <p>
       The API documentation describes all types and members of the Gallio and MbUnit API.
@@ -38,6 +47,7 @@
     <ul>
       <li><a href="http://blog.bits-in-motion.com/search/label/release%20notes">Gallio Release Notes</a></li>
     </ul>
+	
     <h3>Links</h3>
     <ul>
     <li><a href="api/html/N_MbUnit_Framework.htm">MbUnit v3 Framework</a>: <a href="api/html/T_MbUnit_Framework_Assert.htm">Assert</a>, <a href="api/html/T_MbUnit_Framework_AssertEx.htm">AssertEx</a>, <a href="api/html/N_MbUnit_Framework_ContractVerifiers.htm">Contract Verifiers</a>, <a href="api/html/T_Gallio_Framework_TestLog.htm">TestLog</a>, <a href="api/html/T_Gallio_Framework_TestStep.htm">TestStep</a>, <a href="api/html/T_Gallio_Framework_TestContext.htm">TestContext</a>, <a href="api/html/T_Gallio_Framework_Tasks.htm">Task Manager</a></li>
@@ -45,6 +55,7 @@
     <li><a href="api/html/N_Gallio_MSBuildTasks.htm">Gallio MSBuild Tasks</a></li>
     <li><a href="api/html/T_Gallio_Ambience_Ambient.htm">Gallio Ambience Test Data Repository</a></li>
     </ul>
+	
     <h3>Tips</h3>
     <ul>
     <li>For documentation about the command-line test runner, type "Gallio.Echo.exe /?" at the command-line.</li>

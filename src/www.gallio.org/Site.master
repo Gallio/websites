@@ -25,10 +25,13 @@
             <ul>
                 <li>◄</li>
                 <li><a href="http://code.google.com/p/mb-unit/">code</a></li>
+                <li><a href="book/XHtml/index.html">book</a></li>
+                <li><a href="wiki">wiki</a></li>
+                <li><a href="api/index.aspx">api</a></li>
                 <li><a href="http://ccnet.gallio.org/">builds</a></li>
-                <li><a href="http://code.google.com/p/mb-unit/w/list">wiki</a></li>
                 <li><a href="http://code.google.com/p/mb-unit/issues/list">issues</a></li>
                 <li><a href="http://groups.google.com/group/gallio-dev?lnk=li">gallio-dev</a></li>
+                <li><a href="http://groups.google.com/group/gallio-user?lnk=li">gallio-user</a></li>
                 <li style=" float: right; padding-right: 30px;">
                         <asp:LoginView ID="elLog" runat="server">
                             <AnonymousTemplate>
@@ -64,6 +67,7 @@
                     </li>
                     <li><a href="Screenshots.aspx">screenshots</a></li>
                     <li><a href="Downloads.aspx">downloads</a></li>
+					<%-- Disabled for now because there is no content here.  Refer to Wiki instead.
                     <li>
                     <a href="#" onclick="toggle('gettingStartedSubMenu', 'gettingStarted');return false;"
                     id="gettingStarted">getting started</a>
@@ -72,13 +76,17 @@
                             <li><a href="Articles.aspx" class="childItem">articles</a></li>
                         </ul>
                     </li>
+					--%>
                     <li><a href="Docs.aspx">documentation</a></li>  
                     <li>
                     <a href="#" onclick="toggle('communitySubMenu', 'community');return false;"
                     id="community">community</a>
                         <ul id="communitySubMenu">
+							<%-- Disabled because the Technorati API has gone away!
                             <li><a href="Blogs.aspx" class="childItem">blogs</a></li>
+							--%>
                             <li><a href="Support.aspx" class="childItem">support</a></li>
+                            <li><a href="wiki" class="childItem">wiki</a></li>
                         </ul>
                     </li>                          
                     <li><a href="LinkTo.aspx">link to gallio</a></li>
@@ -99,7 +107,7 @@
                 </asp:ContentPlaceHolder>
             </div>
         </div>
-        <div id="footer">copyright &copy; 2009 (<span lang="en-gb">gallio.org</span>).</div>
+        <div id="footer">copyright &copy; 2010 (<span lang="en-gb">gallio.org</span>).</div>
     </div>
     </form>
     <script type="text/javascript">

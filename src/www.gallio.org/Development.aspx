@@ -19,10 +19,11 @@
         Our bug tracking system is located at:
         <br />
         <a href="http://code.google.com/p/mb-unit/issues/list" 
-        target="_blank">http://code.google.com/p/mb-unit/issues/list</a><br />
-        <br />
+        target="_blank">http://code.google.com/p/mb-unit/issues/list</a></p>
+	<p>
         If you wish to contact any of the developers or help in any way, such as 
-        submitting new features or code, then please contact us, we are always happy to 
+        submitting new features or code, improving the documentation, or reporting bugs,
+		then please contact us, we are always happy to 
         hear from our users.&nbsp; The best way is via the Google Groups mailing list located at:<br />
         <a href="http://groups.google.com/group/gallio-dev" 
         target="_blank">http://groups.google.com/group/gallio-dev</a>.<br /><br />
@@ -30,4 +31,3 @@
         <a href="mailto:gallio-dev@googlegroups.com">
         gallio-dev@googlegroups.com</a></p>
 </asp:Content>
-
