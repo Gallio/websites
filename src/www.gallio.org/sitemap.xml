@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.gallio.org</loc>
-    <lastmod>2008-10-14</lastmod>
+    <lastmod>2010-02-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>01.0</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>http://www.gallio.org/Default.aspx</loc>
-    <lastmod>2008-10-14</lastmod>
+    <lastmod>2010-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -20,20 +20,32 @@
   </url>
   <url>
     <loc>http://www.gallio.org/Docs.aspx</loc>
-    <lastmod>2008-10-14</lastmod>
+    <lastmod>2010-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>.7</priority>
+  </url>
+  <url>
+    <loc>http://www.gallio.org/book/XHtml/index.html</loc>
+    <lastmod>2010-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>.6</priority>
+  </url>
+  <url>
+    <loc>http://www.gallio.org/api/index.aspx</loc>
+    <lastmod>2010-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>.6</priority>
+  </url>
+  <url>
+    <loc>http://www.gallio.org/wiki</loc>
+    <lastmod>2010-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>.6</priority>
   </url>
   <url>
     <loc>http://www.gallio.org/Development.aspx</loc>
     <lastmod>2008-03-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>.5</priority>
-  </url>
-  <url>
-    <loc>http://www.gallio.org/Blogs.aspx</loc>
-    <lastmod>2008-03-23</lastmod>
-    <changefreq>daily</changefreq>
     <priority>.5</priority>
   </url>
   <url>
@@ -46,56 +58,42 @@
     <loc>http://www.gallio.org/LinkTo.aspx</loc>
     <lastmod>2008-03-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>.3</priority>
-  </url>
-  <url>
-    <loc>http://www.gallio.org/Tutorial.aspx</loc>
-    <lastmod>2008-03-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>.3</priority>
-  </url>
-  <url>
-    <loc>http://www.gallio.org/Articles.aspx</loc>
-    <lastmod>2008-03-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>.5</priority>
+    <priority>.1</priority>
   </url>
   <url>
     <loc>http://www.gallio.org/Screenshots.aspx</loc>
     <lastmod>2008-03-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>.6</priority>
+    <priority>.4</priority>
   </url>
   <url>
     <loc>http://www.gallio.org/FAQ.aspx</loc>
     <lastmod>2008-03-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>.5</priority>
+    <priority>.2</priority>
   </url>
   <url>
     <loc>http://www.gallio.org/History.aspx</loc>
     <lastmod>2008-03-23</lastmod>
-    <changefreq>yearly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>.2</priority>
   </url>
   <url>
     <loc>http://www.gallio.org/RoadMap.aspx</loc>
     <lastmod>2008-03-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>.5</priority>
+    <priority>.2</priority>
   </url>
   <url>
     <loc>http://www.gallio.org/Credits.aspx</loc>
     <lastmod>2008-09-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>.5</priority>
+    <priority>.1</priority>
   </url>
   <url>
     <loc>http://www.gallio.org/License.aspx</loc>
     <lastmod>2008-03-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>.1</priority>
   </url>
 </urlset>
-
-
