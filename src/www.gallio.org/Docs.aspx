@@ -35,8 +35,10 @@
       F1 help.
     </p>
     <ul>
-    <li><a href="api/index.aspx">Gallio API Documentation online</a></li>
-    <li><a href="api/Gallio.chm">Gallio API Documentation in CHM format</a> (downloadable)</li>
+    <li><a href="api/index.aspx">Gallio and MbUnit v3 API Documentation online</a></li>
+    <li><a href="api/Gallio.chm">Gallio and MbUnit v3 API Documentation in CHM format</a> (downloadable)</li>
+    <li><a href="api-v2/index.aspx">MbUnit v2 API Documentation online</a></li>
+    <li><a href="api-v2/MbUnit.chm">MbUnit v2 API Documentation in CHM format</a> (downloadable)</li>
     </ul>
     <h3>Release Notes</h3>
     <p>
