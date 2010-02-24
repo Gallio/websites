@@ -26,6 +26,7 @@
 	</p>
     <ul>
     <li><a href="wiki">Gallio Wiki</a></li>
+	<li><a href="oldwiki/MbUnit/index.html">Old MbUnit v2 Wiki</a> (read only archive)</li>
     </ul>	
 	
     <h3>API Documentation</h3>
