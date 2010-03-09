@@ -25,9 +25,9 @@
             <ul>
                 <li>◄</li>
                 <li><a href="http://code.google.com/p/mb-unit/">code</a></li>
-                <li><a href="book/XHtml/index.html">book</a></li>
                 <li><a href="wiki">wiki</a></li>
                 <li><a href="api/index.aspx">api</a></li>
+                <li><a href="book/XHtml/index.html">book</a></li>
                 <li><a href="http://ccnet.gallio.org/">builds</a></li>
                 <li><a href="http://code.google.com/p/mb-unit/issues/list">issues</a></li>
                 <li><a href="http://groups.google.com/group/gallio-dev?lnk=li">gallio-dev</a></li>

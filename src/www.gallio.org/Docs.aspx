@@ -4,25 +4,11 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <h2>Documentation</h2>
-    <h3>Gallio Book</h3>
-    <p>
-      The Gallio Book contains the consolidated documentation and tutorials for the Gallio
-      Platform, MbUnit Framework and tools.
-    </p>
-    <ul>
-    <li><a href="book/XHtml/index.html">Gallio Book online</a></li>
-    <li><a href="book/GallioBook.chm">Gallio Book in CHM format</a> (downloadable)</li>
-    <li><a href="book/GallioBook.pdf">Gallio Book in PDF format</a> (downloadable)</li>
-    </ul>
-    <p>
-      <em>The book is currently a work in progress.  If you would like to volunteer as
-      a writer or editor please send a message to the <a href="http://groups.google.com/group/gallio-book">gallio-book</a> mailing list.
-      </em>
-    </p>
 	
 	<h3>Wiki</h3>
 	<p>
-	  The Gallio Wiki contains additional documentation and resources provided by the community.
+	  The Gallio Wiki contains documentation about how to get started,
+	  how stuff works and all sorts of other stuff.  Please feel free to contribute.
 	</p>
     <ul>
     <li><a href="wiki">Gallio Wiki</a></li>
@@ -41,6 +27,7 @@
     <li><a href="api-v2/index.aspx">MbUnit v2 API Documentation online</a></li>
     <li><a href="api-v2/MbUnit.chm">MbUnit v2 API Documentation in CHM format</a> (downloadable)</li>
     </ul>
+	
     <h3>Release Notes</h3>
     <p>
       The release notes contain tons of information about particular releases including
@@ -66,6 +53,22 @@
     <li>For additional API documentation about types and operations provided by Gallio, MbUnit and other components, hit F1 in Visual Studio.</li>
     <li>For information on how to integrate Gallio with CruiseControl.Net, look in the "extras/ccnet" folder within the Gallio installation directory.</li>
     <li>To enable TeamCity integration, you must specify "Gallio.TeamCityIntegration.TeamCityExtension, Gallio.TeamCityIntegration" as a test runner extension argument to the Echo, NAnt, MSBuild, or PowerShell test runners.</li>
+    </ul>	
+	
+    <h3>Gallio Book</h3>
+    <p>
+      The Gallio Book contains the consolidated documentation and tutorials for the Gallio
+      Platform, MbUnit Framework and tools.
+    </p>
+    <ul>
+    <li><a href="book/XHtml/index.html">Gallio Book online</a></li>
+    <li><a href="book/GallioBook.chm">Gallio Book in CHM format</a> (downloadable)</li>
+    <li><a href="book/GallioBook.pdf">Gallio Book in PDF format</a> (downloadable)</li>
     </ul>
+    <p>
+      <em>The book is currently incomplete.  If you would like to volunteer as
+      a writer or editor please send a message to the <a href="http://groups.google.com/group/gallio-book">gallio-book</a> mailing list.
+      </em>
+    </p>	
 </asp:Content>
 
