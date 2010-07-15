@@ -1,7 +1,6 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Support.aspx.cs" Inherits="Support" Title="MbUnit Support" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="contentPlaceHolder" Runat="Server">
-    <h3>
-        Support</h3>
+    <h3>Support</h3>
     <p>
         If you have any questions and suggestions then please feel free to contact us.</p>
     <p>
@@ -18,9 +17,12 @@
         These mailing lists are active with a number of users willing to answer any queries
         you might have.
     </p>
+   	<p>
+		We are also on Twitter: <a href="http://twitter.com/mbunit_testing">@mbunit_testing</a>.
+	</p>
     <p>
         If you wish to place a suggestion or report a bug, then please use our issue tracker
-        at: <a href="http://www.mertner.com/jira/secure/BrowseProject.jspa?id=10020" target="_blank">
-            http://www.mertner.com/jira/secure/BrowseProject.jspa?id=10020</a></p>
+        on <a href="http://code.google.com/p/mb-unit/issues/list" target="_blank">Google code</a>
+	</p>
 </asp:Content>
 
