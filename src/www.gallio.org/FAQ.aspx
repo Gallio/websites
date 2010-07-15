@@ -9,9 +9,11 @@
     <p></p>
     <h3>Test Runners</h3>
     <div class="question">Will Gallio run from the console?</div>
-    <div class="answer">Yes.  Gallio's "Echo" test runner makes it easy to run tests from the console.</div>
+    <div class="answer">Yes. Gallio's "Echo" test runner makes it easy to run tests from the console.</div>
     <div class="question">Does Gallio have a GUI runner?</div>
-    <div class="answer">Yes.  Gallio's "Icarus" test runner provides a Windows based GUI for interactively running tests.</div>
+    <div class="answer">Yes. Gallio's "Icarus" test runner provides a Windows based GUI for interactively running tests.</div>
+	<div class="question">Does Gallio support ReSharper 5?</div>
+    <div class="answer">Yes, but only in v3.2 (and newer).</div>
     <p></p>
     <h3>MbUnit</h3>
     <div class="question">What is Gallio's relationship to MbUnit?</div>
