@@ -5,7 +5,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="This is the home of MbUnit, a generative unit test framework for the .NET Framework. " />
-    <meta name="keywords" content="C#, MbUnit, Unit Testing" />
+    <meta name="keywords" content="MbUnit, Gallio, C#, Unit Testing" />
     <meta name="author" content="MbUnit / Original design: Andreas Viklund - http://andreasviklund.com/" />
     <link rel="stylesheet" type="text/css" href="andreas01.css" media="screen" title="andreas01 (screen)" />
     <link rel="stylesheet" type="text/css" href="print.css" media="print" />
@@ -30,7 +30,7 @@
                     </li>
                     <li><a href="About.aspx">About</a></li>
                     <li><a href="Downloads.aspx">Downloads</a></li>
-                    <li><a href="http://docs.mbunit.com">Documentation</a></li>
+                    <li><a href="http://www.gallio.org/api/index.aspx">Documentation</a></li>
                     <li><a href="Blogs.aspx">Blogs</a></li>
                     <li><a href="Articles.aspx">Articles</a></li>
                     <li><a href="Development.aspx">Development</a></li>
@@ -56,8 +56,7 @@
                 </asp:ContentPlaceHolder>
             </div>
             <div id="footer">
-                Copyright &copy; 2005<span lang="en-gb">/6</span> (<span lang="en-gb">Andrew Stopford</span>).
-                Design by <a href="http://andreasviklund.com">Andreas Viklund</a>.
+                Copyright &copy; 2010 (mbunit.com). Design by <a href="http://andreasviklund.com">Andreas Viklund</a>.
             </div>
         </div>
     </form>
