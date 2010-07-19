@@ -14,33 +14,5 @@
     </p>
     <p>
     <b>Please visit the <a href="http://www.gallio.org/">Gallio</a> website for the latest information about Gallio and MbUnit v3.</b>
-    </p>
-    <h3>
-        Latest News</h3>
-    <asp:Repeater ID="newsItems" runat="server" DataSourceID="SqlDataSource1">
-        <ItemTemplate>
-            <strong>
-                <%# DataBinder.Eval(Container.DataItem, "Title") %>
-            </strong>
-            <br />
-            <%# DataBinder.Eval(Container.DataItem, "Text") %>
-            <br />
-            <small>Created at
-                <%# DataBinder.Eval(Container.DataItem, "Created") %>
-                by
-                <%# DataBinder.Eval(Container.DataItem, "Author") %>
-            </small>
-        </ItemTemplate>
-        <SeparatorTemplate>
-            <br />
-            <hr />
-        </SeparatorTemplate>
-    </asp:Repeater>
-    <br />
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:MbUnitDb %>"
-        ProviderName="<%$ ConnectionStrings:MbUnitDb.ProviderName %>"
-        SelectCommand="SELECT TOP 3 [Title], [Text], [Created], [Author] FROM [NewsItems] ORDER BY [Created] DESC">
-    </asp:SqlDataSource>
-    
 </asp:Content>
 
