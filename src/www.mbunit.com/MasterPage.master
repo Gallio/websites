@@ -29,10 +29,8 @@
                     <%} %>
                     </li>
                     <li><a href="About.aspx">About</a></li>
-                    <li><a href="Downloads.aspx">Downloads</a></li>
-                    <li><a href="http://www.gallio.org/api/index.aspx">Documentation</a></li>
-                    <li><a href="Blogs.aspx">Blogs</a></li>
-                    <li><a href="Articles.aspx">Articles</a></li>
+                    <li><a href="http://gallio.org/Downloads.aspx">Downloads</a></li>
+                    <li><a href="http://gallio.org/Docs.aspxx">Documentation</a></li>
                     <li><a href="Development.aspx">Development</a></li>
                     <li><a href="Support.aspx">Support</a></li>
                     <li><a href="Logos.aspx">Logo</a></li>

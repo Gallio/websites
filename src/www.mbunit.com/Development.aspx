@@ -8,7 +8,7 @@
     <p>
         Documentation for the project, including how to get started developing for the framework,
         submitting bugs, and other important information can be found at:<br />
-        <a href="http://docs.mbunit.com">http://docs.mbunit.com</a></p>
+        <a href="http://gallio.org/wiki/">http://gallio.org/wiki/</a></p>
     <p>
         We are currently hosting our code at GoogleCode and SVN.&nbsp; This can be access
         by going to:<br />
@@ -16,7 +16,7 @@
     <p>
         Our bug tracking system is located at:
         <br />
-        <a href="http://www.mertner.com/jira/" target="_blank">http://www.mertner.com/jira/</a><br />
+        <a href="http://code.google.com/p/mb-unit/issues/list/" target="_blank">http://code.google.com/p/mb-unit/issues/list</a><br />
         <br />
         If you wish to contact any of the developers or help in any way, such as submitting new features or code, then please contact
         us, we are always happy to hear from our users.&nbsp; The best way is via the Google

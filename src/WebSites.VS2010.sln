@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "www.gallio.org", "www.gallio.org\", "{38F81725-638D-4A81-A288-9E186F9CE820}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/www.gallio.org"
+		Debug.AspNetCompiler.PhysicalPath = "www.gallio.org\"
+		Debug.AspNetCompiler.TargetPath = "..\build\temp\www.gallio.org\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/www.gallio.org"
+		Release.AspNetCompiler.PhysicalPath = "www.gallio.org\"
+		Release.AspNetCompiler.TargetPath = "..\build\temp\www.gallio.org\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49908"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "www.mbunit.com", "www.mbunit.com\", "{06B1101C-4777-4700-A8F3-3EA84F4D42E6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/www.mbunit.com"
+		Debug.AspNetCompiler.PhysicalPath = "www.mbunit.com\"
+		Debug.AspNetCompiler.TargetPath = "..\build\temp\www.mbunit.com\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/www.mbunit.com"
+		Release.AspNetCompiler.PhysicalPath = "www.mbunit.com\"
+		Release.AspNetCompiler.TargetPath = "..\build\temp\www.mbunit.com\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "41992"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38F81725-638D-4A81-A288-9E186F9CE820}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{38F81725-638D-4A81-A288-9E186F9CE820}.Debug|.NET.Build.0 = Debug|Any CPU
+		{38F81725-638D-4A81-A288-9E186F9CE820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F81725-638D-4A81-A288-9E186F9CE820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B1101C-4777-4700-A8F3-3EA84F4D42E6}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{06B1101C-4777-4700-A8F3-3EA84F4D42E6}.Debug|.NET.Build.0 = Debug|Any CPU
+		{06B1101C-4777-4700-A8F3-3EA84F4D42E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B1101C-4777-4700-A8F3-3EA84F4D42E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

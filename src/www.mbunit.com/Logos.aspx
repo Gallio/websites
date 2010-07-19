@@ -5,17 +5,15 @@
     <p>
         We have created a set of logos which you can use to display on your website or blog
         to support the project.</p>
-    <p>
-        <img src="images/Link150x36.png" />&nbsp;</p>
-    <p>
-        <img src="images/Link200x48.png" />&nbsp;</p>
-    <p>
-        <img src="images/Link250x60.png" />&nbsp;</p>
-    <p>
-        <img src="images/MbUnitLink250x60.png" />&nbsp;</p>
-    <p>
-        <img src="images/MbUnitLink200x48.png" />&nbsp;</p>
-    <p>
-        <img src="images/MbUnitLink150x36.png" />&nbsp;</p>
+    <p><img src="http://gallio.org/images/EchoLink100.png" /></p>
+    <p><img src="http://gallio.org/images/EchoLink120.png" /></p> 
+    <p><img src="http://gallio.org/images/EchoLink150.png" /></p>  
+    <p><img src="http://gallio.org/images/EchoLink300.png" /></p> 
+    <p><img src="images/Link150x36.png" />&nbsp;</p>
+    <p><img src="images/Link200x48.png" />&nbsp;</p>
+    <p><img src="images/Link250x60.png" />&nbsp;</p>
+    <p><img src="images/MbUnitLink250x60.png" />&nbsp;</p>
+    <p><img src="images/MbUnitLink200x48.png" />&nbsp;</p>
+    <p><img src="images/MbUnitLink150x36.png" />&nbsp;</p>
 </asp:Content>
 
