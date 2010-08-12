@@ -8,7 +8,7 @@
             presented here is of course subject to change.
         </p>
         
-        <h3>Gallio v3.2</h3>
+        <h3>Gallio v3.3</h3>
         <ul>
 			<li>Mono Support.</li>
             <li>Support for non-.Net based test frameworks.</li>
@@ -16,6 +16,6 @@
             <li>Adopt message bus architecture.  Testing as a service.</li>
             <li>Get Gallio Archimedes under way to function as the hub of a distributed test platform.</li>
         </ul>
-        
+		
 </asp:Content>
 
