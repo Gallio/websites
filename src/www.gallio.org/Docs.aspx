@@ -7,11 +7,11 @@
 	
 	<h3>Wiki</h3>
 	<p>
-	  The Gallio Wiki contains documentation about how to get started,
+	  The Gallio Wiki contains documentation about how to get started with Gallio and MbUnit,
 	  how stuff works and all sorts of other stuff.  Please feel free to contribute.
 	</p>
     <ul>
-    <li><a href="wiki"><b>Gallio Wiki</b></a></li>
+    <li><a href="wiki"><b>Gallio/MbUnit Wiki</b></a></li>
 	<li><a href="oldwiki/MbUnit/index.html">Old MbUnit v2 Wiki</a> (read only archive)</li>
     </ul>	
 	
