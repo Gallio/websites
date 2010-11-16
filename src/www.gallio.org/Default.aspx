@@ -18,6 +18,7 @@
         <p>
             At present Gallio can run tests from 
             <a href="http://www.mbunit.com" class="sF">MbUnit</a> versions 2 and 3,
+            <a href="http://www.gallio.org/wiki/doku.php?id=mbunitcpp" class="sF">MbUnitCpp</a>,
             <a href="http://msdn.microsoft.com/en-us/library/ms182486.aspx" class="sF">MSTest</a>,  
             <a href="http://nbehave.org/" class="sF">NBehave</a>, 
             <a href="http://www.nunit.org/index.php" class="sF">NUnit</a>, 
