@@ -38,14 +38,14 @@
             Powershell</a>,
             <a href="http://www.jetbrains.com/resharper/index.html" class="sF">Resharper</a>, 
             <a href="http://www.testdriven.net/" class="sF">TestDriven.Net</a>, 
-            <a href="http://www.typemock.com/" class="sF">TypeMock</a>, and
-            <a href="http://msdn.microsoft.com/en-us/vsts2008/products/default.aspx" class="sF">Visual Studio Team System</a>.
+            <a href="http://www.typemock.com/" class="sF">TypeMock</a>, 
+			<a href="http://www.jetbrains.com/dotcover/" class="sF">dotCover</a>, and
+            <a href="http://www.microsoft.com/visualstudio/en-us" class="sF">Visual Studio</a>.
         </p>
     <p>
-        Gallio also includes its own command-line runner, Echo, and a Windows GUI, 
-        Icarus. Additional runners are planned or under development. Third parties are 
-        also encouraged to leverage the Gallio platform as part of their own 
-        applications.</p>
+        Gallio also includes its own command-line runner, <a href="http://gallio.org/wiki/doku.php?id=tools:echo" class="sF">Echo</a>, and a Windows GUI, 
+        <a href="http://gallio.org/wiki/doku.php?id=tools:icarus" class="sF">Icarus</a>. Additional runners are available, planned, or under development. 
+		Third parties are also encouraged to leverage the Gallio platform as part of their own applications.</p>
     <p>
         Gallio has a rich plug-in model that enables integration with additional frameworks and tools
         of your own design.  Tests can be implemented in almost any language or format provided
