@@ -6,6 +6,15 @@
     <description>News and information about the Gallio Automation Platform for .NET</description>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 January 2011 08:00:00 GMT</lastBuildDate>
+  <item>
+      <title>Gallio and MbUnit v3.3 Released</title>
+      <link>http://gallio.org</link>
+      <description>
+        We are pleased to announce the release of Gallio and MbUnit v3.3. This is a major release with many new features and enhancements. 
+		Please visit the Gallio website download page for details. 
+      </description>
+      <pubDate>Sat, 17 September 2012 12:00:00 GMT</pubDate>
+    </item>
 	<item>
       <title>Gallio and MbUnit v3.2.3 Released</title>
       <link>http://www.gallio.org</link>
